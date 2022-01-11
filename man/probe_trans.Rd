@@ -2,7 +2,7 @@
 % Please edit documentation in R/probe_trans.R
 \name{probe_trans}
 \alias{probe_trans}
-\title{riceprobes2ID}
+\title{probe_trans}
 \usage{
 probe_trans(GPL, expr_matrix, merge_by = "mean")
 }

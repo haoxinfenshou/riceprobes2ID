@@ -1,4 +1,4 @@
-#'@title riceprobes2ID
+#'@title probe_trans
 #'
 #'@description Convert rice microarray ID to RAP-ID and merge multi probes for one genes
 #'
@@ -70,3 +70,5 @@ probe_trans <- function(GPL, expr_matrix, merge_by = 'mean'){
     return(expr5[, -1])
   }
 }
+
+
